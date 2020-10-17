@@ -43,6 +43,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     margin-top: 20px;
 
 }
@@ -76,16 +77,19 @@ html, body {
     border: 1px solid rgb(148, 74, 233);
 }
 
+.btn {
+    font-size: 1em;
+    padding: .1em .5em;
+    outline: none;
+}
 
-.control .button {
+.btn-primary {
     color: white;
     background-color: #333;
     border: 1px solid black;
-    font-size: 1em;
-    padding: .1em .5em;
 }
 
-.control .button:hover {
+.btn-primary:hover {
     cursor: pointer;
     background-color: #111;
 }
